@@ -17,7 +17,7 @@ const prefixPatternMap = {
   js: 'import\\s*[^\'"]*\\(?|from|require\\s*\\(',
   // poster: wxml
   xml: 'src=|url=|poster=|href=',
-  css: '@import\\s*|url\\s*\\(',
+  css: '(@import|@use)\\s*|url\\s*\\(',
 };
 /* 全匹配的正则规则 */
 const exactMatchPattern = /\$$/;
